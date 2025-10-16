@@ -1,0 +1,60 @@
+.video-container {
+  position: relative;
+  height: 605px;
+  overflow: hidden;
+}
+
+.background-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  color: white;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+p {
+  font-size: 1.5rem;
+}
+.p1 ,.p2 , .p3 , .p4{
+  color: #13d5e7;
+  font-family: Aclonica;
+
+}
+.p1 , .p2 , .p3{
+  color: white;
+}
+.p4{
+  color: rgb(22, 254, 14);
+}
+
+.reserve-button{
+  padding: 12px;
+  border-radius: 16px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #FFFFFF;
+  background-color: rgb(31, 92, 223);
+  border: none;
+  transition: 0.5s;
+}
+.reserve-button:hover{
+  padding: 20px;
+}

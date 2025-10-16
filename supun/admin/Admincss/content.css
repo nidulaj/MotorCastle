@@ -1,0 +1,12 @@
+.content{
+    display: flex;
+    flex-direction:column;
+    margin-left: 210px;
+    width: 100vw;
+    height:100vh;
+    transition: margin-left 0.3s ease;
+    max-width: 100%; 
+    
+    padding-right: 20px;
+}
+

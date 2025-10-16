@@ -1,0 +1,10 @@
+.calender{
+    display: flex;
+    margin:5px;
+    padding:5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0);
+    min-width: 200px;
+    min-height: 200px;
+}

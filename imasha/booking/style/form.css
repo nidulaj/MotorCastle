@@ -1,0 +1,111 @@
+.main-content{
+  background-image: url(../image/img3.jpeg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: center;
+}
+body
+{
+  background-image: url(../image/img\ 4.jpg);
+}
+.form{
+  margin: 90px;
+  border: 2px solid #c4c2ca;  
+  padding: 20px;           
+  width: 50%;             
+  background-color: #f2ecf7;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 8px;
+}
+.form-title{
+  padding-bottom: 20px;
+}
+.field-input input, .field-input select {
+  width: 35%;             
+  padding: 8px;          
+  margin: 8px ;          
+  border: 1px solid #ccc;  
+  border-radius: 5px;      
+  box-sizing: border-box; 
+  align-items: right;
+}
+.time{
+  display: flex;
+  flex-direction: row;
+}
+.time .field-input{
+  width: 70%;
+}
+.total-payment-info{
+  font-size: 18px;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.payment-details div{
+  padding-bottom: 20px;
+}
+.card-info .field-input .visa , .card-info .field-input .master{
+  width: 20%;
+  height: 35px;
+}
+.visa , .master{
+  display: flex;
+  flex-direction: row;
+}
+.visa img , .master img{
+  height: 30px;
+}
+.visa div , .master div{
+  padding: 10px;
+}
+input[type="radio"] {
+  padding: 10px; 
+  margin-right: 10px; 
+}
+input[type="submit"]{
+  background-color: rgba(59,94,232,0.808);
+  font-size: 20px;
+   
+  width: 20%;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  
+}
+
+#pay
+{
+  background-color: rgba(59,94,232,0.808); /* Green */
+  border: none;
+  color: black;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 8px 4px;
+  cursor: pointer;
+}
+#check-payment-btn {
+  background-color: rgba(59,94,232,0.808); /* Dark blue background */
+  color: black; /* White text */
+  padding: 10px 20px; /* Add padding to make the button bigger */
+  font-size: 16px; /* Font size */
+  border: none; /* Remove default border */
+  border-radius: 8px; /* Rounded corners */
+  cursor: pointer; /* Cursor pointer on hover */
+  transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+#check-payment-btn:hover {
+  background-color: #2a6a96; /* Change background on hover */
+}
+ 
+ 

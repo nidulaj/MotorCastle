@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motor Castle|FAQ</title>
+    <link rel="stylesheet" href="faq.css">
+    <link rel="stylesheet" href="../contactus/css/header.css">
+    <link rel="stylesheet" href="../contactus/css/footer.css">
+    
+</head>
+<body>
+<header>
+      <?php include('../../luhith/components/header2.php') ?>
+    </header>
+    <div class="content">
+        <div class="faq-container">
+            <h1>Motor Castle Parking | FAQs</h1>
+            <div class="faq-item">
+                <div class="faq-question"> How does the automated parking system work?</div>
+                <div class="faq-answer">
+                    The automated parking system uses sensors, cameras, and robotic mechanisms to park and retrieve vehicles. Users simply need to drive their cars into the designated bay, and the system handles the rest.
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Is the automated parking system safe for my car?</div>
+                <div class="faq-answer">
+                    Yes, the system is designed to safely park your car without human intervention. The sensors and automated controls minimize the risk of accidents or damage during the parking process.
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">What types of vehicles are supported?</div>
+                <div class="faq-answer">
+                    The system can handle most common vehicle types such as sedans, SUVs, compact cars and all the EVs. We have the EV charging facilities also. 
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">How secure is the automated parking system?</div>
+                <div class="faq-answer">
+                    The system is monitored with cameras and restricted access. Only authorized users can enter and retrieve vehicles, ensuring a secure environment for parked cars.
+                </div>
+            </div>
+        </div>
+    </div>
+    <?php include('../../luhith/components/footer.php') ?>
+
+   
+    
+    <script src="faq.js"></script>
+</body>
+</html>

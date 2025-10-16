@@ -1,0 +1,26 @@
+.formButtons{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+}
+
+.submitButton, .resetButton{
+    color: aliceblue;
+    font-size: medium;
+    font-weight: bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 1px solid ;
+    min-width:40px;
+    padding: 10px;
+    background-color:rgba(64, 163, 255, 0.377) ;
+    border-radius: 5px;
+    margin: 20px;
+    text-shadow: 2px 2px 5px black;
+}
+
+.submitButton:hover, .resetButton:hover {
+    color: rgb(0, 0, 0); 
+    background-color: rgba(64, 163, 255, 0.959); 
+    cursor: pointer; 
+    
+}

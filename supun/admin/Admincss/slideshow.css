@@ -1,0 +1,35 @@
+
+ #slideshow {
+    width: 300px; 
+    height: 200px; 
+    margin: auto;
+    text-align: center;
+    border: 1px solid #ccc; 
+    position: relative; 
+    color:rgba(0, 0, 0, 0.897);
+    border: none;
+}
+
+#slideshow img {
+    width: 100%;
+    height: auto;
+    box-shadow: 2px 10px 10px rgb(0, 0, 0); ;
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid #ccc; 
+    padding: 10px; 
+    cursor: pointer; 
+}
+
+#prev {
+    left: 10px; 
+}
+
+#next {
+    right: 10px; 
+}

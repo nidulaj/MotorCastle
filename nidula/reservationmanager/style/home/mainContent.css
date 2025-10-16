@@ -1,0 +1,16 @@
+*{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.home{
+  display: flex;
+  flex-direction: column;
+  margin-top: 90px;
+}
+body{
+  margin: 0;
+}
+.middle-content{
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(45deg,#727ca8 ,#01041c);
+}

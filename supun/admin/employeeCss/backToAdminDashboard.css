@@ -1,0 +1,26 @@
+.backToAdminDashboard {
+
+    margin:10px;
+    max-width: 250px;
+    max-height: 30px;
+    text-align: center;
+    font-size: medium;
+    color: aliceblue;
+    background-color: rgba(215, 217, 250, 0.555);
+    box-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+
+.backToAdminDashboard a{
+    
+    font-size: medium;
+    color: aliceblue;
+    text-decoration: none;
+    text-shadow: 2px 2px 5px black;
+}
+
+.backToAdminDashboard:hover{
+    color: rgb(0, 0, 0); 
+    background-color: rgba(64, 163, 255, 0.959); 
+    cursor: pointer; 
+    
+}

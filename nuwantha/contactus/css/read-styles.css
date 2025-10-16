@@ -1,0 +1,73 @@
+
+body {
+    min-height: 100vh;
+    background-image: url(../image/img4.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    text-align: center;
+    margin: 0;
+}
+
+.table-container {
+    width: 100%;
+    max-width: 900px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #b5b1b1e3;
+    border-radius: 10px;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+thead {
+    background-color: #009879;
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tbody tr:hover {
+    background-color: #080808;
+    color: #ddd;
+}
+
+/* Add some hover effects */
+th {
+    background-color: #009879;
+    color: #ffffff;
+}
+
+p {
+    text-align: center;
+    color: #555;
+    font-size: 18px;
+}
+button{
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #4166eb;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    margin-right: 3px;
+    font-size: 15px;
+}
+button:hover{
+    opacity: 80%;
+}

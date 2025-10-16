@@ -1,0 +1,18 @@
+/*.systemAlert{
+    border:2px solid black;
+    border-radius: 5px;;
+    padding:10px;
+    margin: 5px;
+    background-color:#f2f2f2;
+}*/
+
+.systemAlert {
+    display: block; 
+    border: 1px solid #CCCCCC; 
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    background-color: #1E1E1E; 
+    color: #FFFFFF;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0);
+}

@@ -1,0 +1,75 @@
+
+.employeetable {
+    margin: 5px auto; 
+    border: 1px solid #444; 
+    border-collapse: collapse;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5); 
+    width: 90%; 
+    max-width: 1000px; 
+}
+
+.employeeTable th {
+    
+    background-color: #1C1C1C; 
+    color: #FFD700; 
+    padding: 12px;
+    text-align: left;
+}
+
+.employeeTable td {
+    padding: 12px;
+    border-bottom: 1px solid #555; 
+    border-right: 1px solid #555; 
+    color: #E0E0E0;
+}
+
+.employeeTable tr:nth-child(even) {
+    background-color: #2A2A2A; 
+}
+
+.employeeTable tr:nth-child(odd) {
+    background-color: #3A3A3A; 
+}
+
+
+.employeeTable tr:hover {
+    background-color: #4B4B4B; 
+}
+
+
+.employeeTable td:last-child {
+    text-align: center; 
+    background-color: #353535; 
+}
+
+
+.employeeTable table a {
+    color: #1E90FF; 
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.employeeTable table a:hover {
+    text-decoration: underline;
+    color: #00BFFF; 
+}
+
+
+@media (max-width: 600px) {
+    .employeetable {
+        width: 100%; 
+        overflow-x: auto; 
+    }
+
+    .employeeTable td, .employeeTable th {
+        display: block; 
+        width: 100%; 
+        box-sizing: border-box; 
+    }
+
+    .employeeTable tr {
+        display: flex;
+        flex-direction: column; 
+        margin-bottom: 10px; 
+    }
+}

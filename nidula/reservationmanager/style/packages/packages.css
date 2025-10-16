@@ -1,0 +1,82 @@
+.title{
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+.basic-packages , .optional-packages{
+  display: flex;
+  flex-direction: column;
+}
+.basic-package-container , .optional-packages-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap; /* Allow wrapping */
+}
+.package{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  min-width: 250px;
+  height: 400px;
+  margin-bottom: 30px;
+  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(30px);
+  border-radius: 20px;
+  border:1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  padding: 14px;
+  
+}
+.package-info{
+  display: flex;
+  flex-direction: column;
+}
+.package-name{
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.purchase{
+  display: flex;
+  justify-content: center;
+}
+.purchase button{
+  padding: 8px;
+  border-radius: 16px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #FFFFFF;
+  background-color: rgb(31, 92, 223);
+  border: none;
+  transition: 0.6s;
+}
+.purchase button:hover{
+  color:rgb(31, 92, 223) ;
+  background-color: white;
+  cursor: pointer;
+}
+
+/*search*/
+.filter-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.filter-container label {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.dropdown {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  font-size: 16px;
+}

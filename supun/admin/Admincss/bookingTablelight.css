@@ -1,0 +1,49 @@
+.bookingTable table{
+
+    margin: 5px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    text-align: left;
+    
+}
+
+.bookingTable th {
+    background-color: #333;
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+
+.bookingTable td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd; 
+    border-right: 1px solid #ddd; 
+}
+.bookingTable tr:nth-child(even) {
+    background-color: #f2f2f2; 
+}
+.bookingTable tr:nth-child(odd) {
+    background-color: #c0bfbf; 
+}
+
+.bookingTable tr:hover {
+    background-color: hsl(229, 13%, 50%); 
+}
+
+.bookingTable td:last-child {
+    text-align: center; 
+    background-color: #fafafa; 
+}
+
+.bookingTable table a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.bookingTable table a:hover {
+    text-decoration: underline;
+}
